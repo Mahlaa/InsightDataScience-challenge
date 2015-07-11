@@ -8,3 +8,10 @@ The algorithm of this code is:
 - For median just scan through the counts arrays and return the middle one (if they are even number of counts, return average of middle ones)
 
 We can also implement it without using dictionary data structure by defining a hash class and also sort them in a heap to ease access to them.
+
+
+
+class my_hash:
+  def __init__(self , key , val):
+    self.key = key
+    self.value = val
